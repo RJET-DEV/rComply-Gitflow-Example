@@ -1,5 +1,6 @@
-# rComply-Gitflow-Example
-A visual example of what rComply would look like with Gitflow
+## Using GitFlow
+GitFlow is a conventional branching standard that can be implemented in any repository.
+It consists of two permanent branches, `master` and `develop`, for which all changes are made in a `feature/`, `release/`, or `hotfix/` branch.
 
 # Branches
 
