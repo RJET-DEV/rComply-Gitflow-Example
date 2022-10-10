@@ -2,6 +2,8 @@
 GitFlow is a conventional branching standard that can be implemented in any repository.
 It consists of two permanent branches, `master` and `develop`, for which all changes are made in a `feature/`, `release/`, or `hotfix/` branch.
 
+Please note that all images below are modifications of those in [Atlassian's Gitflow Workflow How-To article](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow).
+
 # Branches
 
 ### Source Branches
