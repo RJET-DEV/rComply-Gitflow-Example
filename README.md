@@ -25,6 +25,8 @@ Supporting branches are not persistent - they are created with `branch/` syntax 
 These will be the most common, created by branching from `develop` and named with the format `feature/COM365-867`. At any given time there may be multiple `feature/` branches active. These are only merged into `develop` when completed.
 > Starting the name of a `feature/` with a case number allows it to be picked up by Jira, but it can include a description after that, i.e. `feature/COM365-867-fix-jennys-number`
 
+> The branch you're viewing is an example of a feature branch.
+
 <p align="center"><img width=60.5% src="https://github.com/RJET-DEV/rComply-Gitflow-Example/blob/master/media/DevelopAndFeatures.png"></p>
 
 ### `release/`
