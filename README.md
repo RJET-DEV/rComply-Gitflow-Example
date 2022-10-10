@@ -31,6 +31,8 @@ These will be the most common, created by branching from `develop` and named wit
 When the changes in `develop` are approved for a release, a `release/` branch is created from `develop` and named with the format `release/5.30.9`. These will contain tags on commits released to both DEV and QA. `release/` gets merged into both `develop` **and** `master` when completed, and `master` is tagged with the official version number.
 > Tags in `release/` should have the format `DEV-5.30.9` and `QA-5.30.9`. Tags in `master` should have the format `5.30.9`.
 
+> Versions that are only released in QA/UAT **get merged back into `develop` only**. If it's not on production devices, it's not in `master`.
+
 <p align="center"><img width=60.5% src="https://github.com/RJET-DEV/rComply-Gitflow-Example/blob/master/media/ReleaseBranch.png"></p>
 
 ### `hotfix/`
